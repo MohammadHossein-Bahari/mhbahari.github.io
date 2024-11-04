@@ -8,19 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I'm an EDEE PhD student in [EPFL](https://www.epfl.ch/en/) and a research assistant at [VITA](https://www.epfl.ch/labs/vita/) under supervision of [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en). I recieved my master's degree in Electrical engineering from [Sharif university of technology](https://en.sharif.edu/). 
+I'm a research scientist in the [VITA lab @ EPFL](https://www.epfl.ch/labs/vita/), passionate about developing applied AI solutions. 
+I did my PhD under the supervision of [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en) and recieved my master's and bachelor's degrees in Electrical engineering from [Sharif university of technology](https://en.sharif.edu/). 
 
+My PhD thesis, conducted in collaboration with Honda, investigates the generalization of autonomous robotic systems. During my PhD, I completed a six-month research internship at [Five AI](https://www.five.ai/) (now acquired by Bosch), a leading company in self-driving technology in the UK.
 
-My research interest revolves around generalizable neural networks where we tackle the problem through causal learning, knowledge-driven networks, and adversarial attack. I pursue these topics in the application of vehicle behavior prediction for self-driving cars. 
-
-
-I am open for any types of collaborations. Fell free to drop me a massage :)
+I am looking for great teams to join. Feel free to drop me a massage if you know one :)
 
 # News
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts  limit:3  %}
+{% for post in site.posts  limit:5  %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% include archive-single.html %}
 {% endfor %}
